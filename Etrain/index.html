@@ -1,0 +1,2375 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Etrainplatform 3D Conference</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=1280 height=720 tabindex="0"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Etrainplatform 3D Conference</div>
+      </div>
+    </div>
+    <script>
+      function roomButtonClick(){};
+      function ZoomButtonClick(){};
+      localStorage.setItem("dynamicAPI_data",JSON.stringify({
+    "data": {
+        "reception": [
+            {
+                "id": 2625,
+                "conference_id": 69,
+                "title": "1643698855checklist.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 513,
+                "social_link": "https://etrainplatform.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698855checklist.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2626,
+                "conference_id": 69,
+                "title": "1643698852megaphone.png",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 513,
+                "social_link": "https://etrainplatform.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698852megaphone.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2627,
+                "conference_id": 69,
+                "title": "1643698850commitmentCopy2.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 513,
+                "social_link": "https://etrainplatform.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698850commitmentCopy2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2628,
+                "conference_id": 69,
+                "title": "1643698845GA.JPG",
+                "position": "social_link_4",
+                "type": "social_link",
+                "room_id": 513,
+                "social_link": "https://etrainplatform.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698845GA.JPG",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2629,
+                "conference_id": 69,
+                "title": "1643698847chat.png",
+                "position": "social_link_5",
+                "type": "social_link",
+                "room_id": 513,
+                "social_link": "https://etrainplatform.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698847chat.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2630,
+                "conference_id": 69,
+                "title": "1643698847driving.png",
+                "position": "social_link_6",
+                "type": "social_link",
+                "room_id": 513,
+                "social_link": "https://etrainplatform.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698847driving.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2655,
+                "conference_id": 69,
+                "title": "164369853820171004hollywoodphotocourseheroimagewvdlcz.jpg",
+                "position": "video1/booth_screen1",
+                "type": "video",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2656,
+                "conference_id": 69,
+                "title": "1643698555724831361021271459161452956863262465064960n1.jpg",
+                "position": "video2/booth_screen2",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698555724831361021271459161452956863262465064960n1.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2657,
+                "conference_id": 69,
+                "title": "16436985611604507345Toprenewableenergycompaniesinuk.jpg",
+                "position": "video3/image",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436985611604507345Toprenewableenergycompaniesinuk.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2658,
+                "conference_id": 69,
+                "title": "164369857313753522213539274382944754720771365258378770o.jpg",
+                "position": "video4/image",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/164369857313753522213539274382944754720771365258378770o.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2659,
+                "conference_id": 69,
+                "title": "16436985811594494731Biomassresearchnapagrassgroot.jpg",
+                "position": "video5/image",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436985811594494731Biomassresearchnapagrassgroot.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2660,
+                "conference_id": 69,
+                "title": "16436985881601635941heroimgfinalmin.jpg",
+                "position": "video6/image",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436985881601635941heroimgfinalmin.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2661,
+                "conference_id": 69,
+                "title": "1643698599aboutimage.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698599aboutimage.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2662,
+                "conference_id": 69,
+                "title": "16436986071599727985BioenergyandbiofuelsforasustainablefutureGreenesa.png",
+                "position": "image_two",
+                "type": "image/png",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436986071599727985BioenergyandbiofuelsforasustainablefutureGreenesa.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2663,
+                "conference_id": 69,
+                "title": "1643698613ad1.jpeg",
+                "position": "image_three",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698613ad1.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2664,
+                "conference_id": 69,
+                "title": "1643698625addtwo.png",
+                "position": "image_four",
+                "type": "image/png",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698625addtwo.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2665,
+                "conference_id": 69,
+                "title": "1643698631BarcelonaVsEllcheon22May.jpeg",
+                "position": "image_five",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698631BarcelonaVsEllcheon22May.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2666,
+                "conference_id": 69,
+                "title": "1643698637barcelona.jpeg",
+                "position": "image_six",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698637barcelona.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2667,
+                "conference_id": 69,
+                "title": "1643698646BenefitsofStudyingEngineeringinCanada1024x7681.jpg",
+                "position": "image_seven",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698646BenefitsofStudyingEngineeringinCanada1024x7681.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2668,
+                "conference_id": 69,
+                "title": "1643698657boudhnath.jpg",
+                "position": "image_eight",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698657boudhnath.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2669,
+                "conference_id": 69,
+                "title": "1643698663bidhya.jpg",
+                "position": "image_nine",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698663bidhya.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2670,
+                "conference_id": 69,
+                "title": "1643698674canada.jpg",
+                "position": "image_ten",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698674canada.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2671,
+                "conference_id": 69,
+                "title": "1643698715download.png",
+                "position": "image_eleven",
+                "type": "image/png",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698715download.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2672,
+                "conference_id": 69,
+                "title": "1643698723cd24aa011f8.jpeg",
+                "position": "image_twelve",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698723cd24aa011f8.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2673,
+                "conference_id": 69,
+                "title": "1643698727bannernew.png",
+                "position": "image_thirteen",
+                "type": "image/png",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698727bannernew.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2674,
+                "conference_id": 69,
+                "title": "1643698748DSC4523600x400.jpg",
+                "position": "image_fourteen",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698748DSC4523600x400.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2675,
+                "conference_id": 69,
+                "title": "1643698754covid1Copy2.png",
+                "position": "image_fifteen",
+                "type": "image/png",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698754covid1Copy2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2676,
+                "conference_id": 69,
+                "title": "1643698759catbanner.jpeg",
+                "position": "image_sixteen",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698759catbanner.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2677,
+                "conference_id": 69,
+                "title": "1643698765categorymensbanner2.jpg",
+                "position": "image_seventeen",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698765categorymensbanner2.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2678,
+                "conference_id": 69,
+                "title": "1643698770globl.jpg",
+                "position": "image_eighteen",
+                "type": "image/jpeg",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698770globl.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2679,
+                "conference_id": 69,
+                "title": "1643698774hey.png",
+                "position": "image_nineteen",
+                "type": "image/png",
+                "room_id": 513,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698774hey.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 513,
+                    "conference_id": 69,
+                    "room_type": "reception",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_1": [
+            {
+                "id": 2631,
+                "conference_id": 69,
+                "title": "1643699069megaphone.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 515,
+                "social_link": "https://www.facebook.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699069megaphone.png",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2632,
+                "conference_id": 69,
+                "title": "1643699068download1.jpg",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 515,
+                "social_link": "https://www.facebook.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699068download1.jpg",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2633,
+                "conference_id": 69,
+                "title": "1643699067khalti.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 515,
+                "social_link": "https://www.facebook.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699067khalti.png",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2702,
+                "conference_id": 69,
+                "title": "16436990231600975956Figure1ShowingtypicalsettlementintheruralareasofNepalGreenesaPixabayImage.png",
+                "position": "video/image",
+                "type": "image/png",
+                "room_id": 515,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436990231600975956Figure1ShowingtypicalsettlementintheruralareasofNepalGreenesaPixabayImage.png",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2703,
+                "conference_id": 69,
+                "title": "1643699029voluntourism400x466.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 515,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699029voluntourism400x466.jpg",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2704,
+                "conference_id": 69,
+                "title": "1643699032cv2.jpeg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 515,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699032cv2.jpeg",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2705,
+                "conference_id": 69,
+                "title": "1643699035badaldada.jpg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 515,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699035badaldada.jpg",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            },
+            {
+                "id": 2706,
+                "conference_id": 69,
+                "title": "16436990391599727985BioenergyandbiofuelsforasustainablefutureGreenesa.png",
+                "position": "painting_two",
+                "type": "image/png",
+                "room_id": 515,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436990391599727985BioenergyandbiofuelsforasustainablefutureGreenesa.png",
+                "images": [],
+                "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                "room": {
+                    "id": 515,
+                    "conference_id": 69,
+                    "room_type": "workshop_1",
+                    "meeting_link": "https://trello.com/roshanthemenepal1/boards",
+                    "title": "Small Room"
+                }
+            }
+        ],
+        "workshop_2": [
+            {
+                "id": 2634,
+                "conference_id": 69,
+                "title": "1643699137EkHifXCoa9vNLiqgaZjp2VSJR5DReo6P9RSeQHfs.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 516,
+                "social_link": "https://www.instagram.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699137EkHifXCoa9vNLiqgaZjp2VSJR5DReo6P9RSeQHfs.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2635,
+                "conference_id": 69,
+                "title": "1643699139download1.jpg",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 516,
+                "social_link": "https://www.instagram.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699139download1.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2636,
+                "conference_id": 69,
+                "title": "1643699140commitment.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 516,
+                "social_link": "https://www.instagram.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699140commitment.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2707,
+                "conference_id": 69,
+                "title": "16436990941636358949s22.png",
+                "position": "video/image",
+                "type": "image/png",
+                "room_id": 516,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436990941636358949s22.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2708,
+                "conference_id": 69,
+                "title": "1643699100CopaAmericaFootball1.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 516,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699100CopaAmericaFootball1.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2709,
+                "conference_id": 69,
+                "title": "1643699105Lehenga.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 516,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699105Lehenga.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2710,
+                "conference_id": 69,
+                "title": "1643699110DSC4509600x400.jpg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 516,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699110DSC4509600x400.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2711,
+                "conference_id": 69,
+                "title": "1643699114dharahara1.jpg",
+                "position": "painting_two",
+                "type": "image/jpeg",
+                "room_id": 516,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699114dharahara1.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 516,
+                    "conference_id": 69,
+                    "room_type": "workshop_2",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_3": [
+            {
+                "id": 2637,
+                "conference_id": 69,
+                "title": "1643699265letspark.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 517,
+                "social_link": "https://trello.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699265letspark.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2638,
+                "conference_id": 69,
+                "title": "1643699264khalti.png",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 517,
+                "social_link": "https://trello.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699264khalti.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2639,
+                "conference_id": 69,
+                "title": "1643699263logo2.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 517,
+                "social_link": "https://trello.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699263logo2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2712,
+                "conference_id": 69,
+                "title": "1643699208b.jpg",
+                "position": "video/image",
+                "type": "image/jpeg",
+                "room_id": 517,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699208b.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2713,
+                "conference_id": 69,
+                "title": "1643699214login.png",
+                "position": "image_one",
+                "type": "image/png",
+                "room_id": 517,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699214login.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2714,
+                "conference_id": 69,
+                "title": "1643699219globl.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 517,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699219globl.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2715,
+                "conference_id": 69,
+                "title": "1643699225pdtbg.jpg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 517,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699225pdtbg.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2716,
+                "conference_id": 69,
+                "title": "1643699230image2.png",
+                "position": "painting_two",
+                "type": "image/png",
+                "room_id": 517,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699230image2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 517,
+                    "conference_id": 69,
+                    "room_type": "workshop_3",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_4": [
+            {
+                "id": 2640,
+                "conference_id": 69,
+                "title": "1643699407checklist.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 518,
+                "social_link": "https://www.linkedin.com/feed/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699407checklist.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2641,
+                "conference_id": 69,
+                "title": "1643699408commitment.png",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 518,
+                "social_link": "https://www.linkedin.com/feed/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699408commitment.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2642,
+                "conference_id": 69,
+                "title": "1643699409driving.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 518,
+                "social_link": "https://www.linkedin.com/feed/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699409driving.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2717,
+                "conference_id": 69,
+                "title": "1643699287login.png",
+                "position": "video/image",
+                "type": "image/png",
+                "room_id": 518,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699287login.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2718,
+                "conference_id": 69,
+                "title": "1643699294UsupsoShoulderBagMulticolor.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 518,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699294UsupsoShoulderBagMulticolor.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2719,
+                "conference_id": 69,
+                "title": "1643699299YokohamaADriveR1Tyre1200x675.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 518,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699299YokohamaADriveR1Tyre1200x675.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2720,
+                "conference_id": 69,
+                "title": "1643699305VZjqsEeQXBPg0RHUokx0W7r89JrlfcSLHXtnPJEE.jpg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 518,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699305VZjqsEeQXBPg0RHUokx0W7r89JrlfcSLHXtnPJEE.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2721,
+                "conference_id": 69,
+                "title": "1643699308voluntourism400x466.jpg",
+                "position": "painting_two",
+                "type": "image/jpeg",
+                "room_id": 518,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699308voluntourism400x466.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 518,
+                    "conference_id": 69,
+                    "room_type": "workshop_4",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_5": [
+            {
+                "id": 2643,
+                "conference_id": 69,
+                "title": "1643699475chat.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 519,
+                "social_link": "https://www.youtube.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699475chat.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2644,
+                "conference_id": 69,
+                "title": "1643699476checklist.png",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 519,
+                "social_link": "https://www.youtube.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699476checklist.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2645,
+                "conference_id": 69,
+                "title": "1643699477commitmentCopy2.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 519,
+                "social_link": "https://www.youtube.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699477commitmentCopy2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2722,
+                "conference_id": 69,
+                "title": "1643699426badaldada.jpg",
+                "position": "video/image",
+                "type": "image/jpeg",
+                "room_id": 519,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699426badaldada.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2723,
+                "conference_id": 69,
+                "title": "1643699431banner4.png",
+                "position": "image_one",
+                "type": "image/png",
+                "room_id": 519,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699431banner4.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2724,
+                "conference_id": 69,
+                "title": "1643699434bannersydney7.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 519,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699434bannersydney7.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2725,
+                "conference_id": 69,
+                "title": "1643699438BarcelonaVsEllcheon22May.jpeg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 519,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699438BarcelonaVsEllcheon22May.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2726,
+                "conference_id": 69,
+                "title": "1643699441barcelona.jpeg",
+                "position": "painting_two",
+                "type": "image/jpeg",
+                "room_id": 519,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699441barcelona.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 519,
+                    "conference_id": 69,
+                    "room_type": "workshop_5",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_6": [
+            {
+                "id": 2646,
+                "conference_id": 69,
+                "title": "16436995526.jpg.jpeg",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 520,
+                "social_link": "https://www.google.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436995526.jpg.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2647,
+                "conference_id": 69,
+                "title": "1643699553checklist.png",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 520,
+                "social_link": "https://www.google.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699553checklist.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2648,
+                "conference_id": 69,
+                "title": "1643699554commitmentCopy2.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 520,
+                "social_link": "https://www.google.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699554commitmentCopy2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2727,
+                "conference_id": 69,
+                "title": "1643699502ToprenewableenergyCompaniesinUk1.jpg",
+                "position": "video/image",
+                "type": "image/jpeg",
+                "room_id": 520,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699502ToprenewableenergyCompaniesinUk1.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2728,
+                "conference_id": 69,
+                "title": null,
+                "position": "image_one",
+                "type": null,
+                "room_id": 520,
+                "social_link": null,
+                "file_path": null,
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2729,
+                "conference_id": 69,
+                "title": "1643699514VZjqsEeQXBPg0RHUokx0W7r89JrlfcSLHXtnPJEE.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 520,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699514VZjqsEeQXBPg0RHUokx0W7r89JrlfcSLHXtnPJEE.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2730,
+                "conference_id": 69,
+                "title": "1643699518tigerwildlife400x466.jpg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 520,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699518tigerwildlife400x466.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2731,
+                "conference_id": 69,
+                "title": "1643699523threepiecesuiindianofficewearshestylesblogspotcom2.jpg",
+                "position": "painting_two",
+                "type": "image/jpeg",
+                "room_id": 520,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699523threepiecesuiindianofficewearshestylesblogspotcom2.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 520,
+                    "conference_id": 69,
+                    "room_type": "workshop_6",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_7": [
+            {
+                "id": 2649,
+                "conference_id": 69,
+                "title": "16436996221.jpeg",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 521,
+                "social_link": "https://www.yahoo.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436996221.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2650,
+                "conference_id": 69,
+                "title": "16436996202.jpeg",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 521,
+                "social_link": "https://www.yahoo.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436996202.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2651,
+                "conference_id": 69,
+                "title": "16436996171200pxRakutenGlobalBrandLogo.svg.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 521,
+                "social_link": "https://www.yahoo.com/",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436996171200pxRakutenGlobalBrandLogo.svg.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2732,
+                "conference_id": 69,
+                "title": "1643699567raftinginnepal400x466.jpg",
+                "position": "video/image",
+                "type": "image/jpeg",
+                "room_id": 521,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699567raftinginnepal400x466.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2733,
+                "conference_id": 69,
+                "title": "1643699571ramjakot.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 521,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699571ramjakot.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2734,
+                "conference_id": 69,
+                "title": "1643699574religious400x466.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 521,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699574religious400x466.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2735,
+                "conference_id": 69,
+                "title": "1643699584renewableenergycompaniesinUK.jpg",
+                "position": "painting_one",
+                "type": "image/jpeg",
+                "room_id": 521,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699584renewableenergycompaniesinUK.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2736,
+                "conference_id": 69,
+                "title": "1643699589s221.png",
+                "position": "painting_two",
+                "type": "image/png",
+                "room_id": 521,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699589s221.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 521,
+                    "conference_id": 69,
+                    "room_type": "workshop_7",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "workshop_8": [
+            {
+                "id": 2652,
+                "conference_id": 69,
+                "title": "1643699707checklist.png",
+                "position": "social_link_1",
+                "type": "social_link",
+                "room_id": 522,
+                "social_link": "https://www.bing.com/?scope=images&nr=1&FORM=NOFORM",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699707checklist.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2653,
+                "conference_id": 69,
+                "title": "1643699703commitmentCopy2.png",
+                "position": "social_link_2",
+                "type": "social_link",
+                "room_id": 522,
+                "social_link": "https://www.bing.com/?scope=images&nr=1&FORM=NOFORM",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699703commitmentCopy2.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2654,
+                "conference_id": 69,
+                "title": "1643699704chat.png",
+                "position": "social_link_3",
+                "type": "social_link",
+                "room_id": 522,
+                "social_link": "https://www.bing.com/?scope=images&nr=1&FORM=NOFORM",
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699704chat.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2737,
+                "conference_id": 69,
+                "title": "1643699636Screenshot2.jpg",
+                "position": "video/image",
+                "type": "image/jpeg",
+                "room_id": 522,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699636Screenshot2.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2738,
+                "conference_id": 69,
+                "title": "1643699641Screenshot3.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 522,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699641Screenshot3.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2739,
+                "conference_id": 69,
+                "title": "1643699646Screenshot6.jpg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 522,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699646Screenshot6.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2740,
+                "conference_id": 69,
+                "title": "1643699650Screenshot1a.png",
+                "position": "painting_one",
+                "type": "image/png",
+                "room_id": 522,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699650Screenshot1a.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2741,
+                "conference_id": 69,
+                "title": "1643699670Screenshot1ass.png",
+                "position": "painting_two",
+                "type": "image/png",
+                "room_id": 522,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643699670Screenshot1ass.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 522,
+                    "conference_id": 69,
+                    "room_type": "workshop_8",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ],
+        "auditorium": [
+            {
+                "id": 2680,
+                "conference_id": 69,
+                "title": "1643698892megaphone.png",
+                "position": "video/image",
+                "type": "image/png",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698892megaphone.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2681,
+                "conference_id": 69,
+                "title": "1643698898BabyWalker.jpg",
+                "position": "image_one",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698898BabyWalker.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2682,
+                "conference_id": 69,
+                "title": "1643698902cv2.jpeg",
+                "position": "image_two",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698902cv2.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2683,
+                "conference_id": 69,
+                "title": "1643698906ChelseavsLeicesterCityCopy2.jpg",
+                "position": "image_three",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698906ChelseavsLeicesterCityCopy2.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2684,
+                "conference_id": 69,
+                "title": "1643698910DifferenceBetweenTOEFLandIELTSEnglishLanguageProficiencyTest1024x683.jpg",
+                "position": "image_four",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698910DifferenceBetweenTOEFLandIELTSEnglishLanguageProficiencyTest1024x683.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2685,
+                "conference_id": 69,
+                "title": "16436989151636358949s22.png",
+                "position": "image_five",
+                "type": "image/png",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436989151636358949s22.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2686,
+                "conference_id": 69,
+                "title": "1643698920customerhowCopy.png",
+                "position": "image_six",
+                "type": "image/png",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698920customerhowCopy.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2687,
+                "conference_id": 69,
+                "title": "1643698926cv.jpeg",
+                "position": "image_seven",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698926cv.jpeg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2688,
+                "conference_id": 69,
+                "title": "1643698933login.jpg",
+                "position": "image_eight",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698933login.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2689,
+                "conference_id": 69,
+                "title": "1643698938maxresdefault.jpg",
+                "position": "image_nine",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698938maxresdefault.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2690,
+                "conference_id": 69,
+                "title": "1643698943newzealand.jpg",
+                "position": "image_ten",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698943newzealand.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2691,
+                "conference_id": 69,
+                "title": "1643698948manaslucircuittrek.jpg",
+                "position": "image_eleven",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698948manaslucircuittrek.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2692,
+                "conference_id": 69,
+                "title": "1643698954Screenshot10.jpg",
+                "position": "image_twelve",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698954Screenshot10.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2693,
+                "conference_id": 69,
+                "title": "1643698959globl.jpg",
+                "position": "image_thirteen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698959globl.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2694,
+                "conference_id": 69,
+                "title": "1643698965Lehenga.jpg",
+                "position": "image_fourteen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698965Lehenga.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2695,
+                "conference_id": 69,
+                "title": "1643698970maxresdefault.jpg",
+                "position": "image_fifteen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698970maxresdefault.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2696,
+                "conference_id": 69,
+                "title": "1643698976womenclothes0006b.jpg",
+                "position": "image_sixteen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698976womenclothes0006b.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2697,
+                "conference_id": 69,
+                "title": "1643698981newdharahara4.jpg",
+                "position": "image_seventeen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698981newdharahara4.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2698,
+                "conference_id": 69,
+                "title": "1643698985nepaldestination400x466.jpg",
+                "position": "image_eighteen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698985nepaldestination400x466.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2699,
+                "conference_id": 69,
+                "title": "1643698990ToprenewableenergyCompaniesinUk1.jpg",
+                "position": "image_ninteen",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698990ToprenewableenergyCompaniesinUk1.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2700,
+                "conference_id": 69,
+                "title": "1643698994everest.jpg",
+                "position": "image_twenty",
+                "type": "image/jpeg",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/1643698994everest.jpg",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            },
+            {
+                "id": 2701,
+                "conference_id": 69,
+                "title": "16436989971200pxFlagofNewZealand.svg.png",
+                "position": "image_twentyone",
+                "type": "image/png",
+                "room_id": 514,
+                "social_link": null,
+                "file_path": "https://etrain-prod-public.s3.eu-central-1.amazonaws.com/dynamic-resources/uploads/3dimages/16436989971200pxFlagofNewZealand.svg.png",
+                "images": [],
+                "meeting_link": null,
+                "room": {
+                    "id": 514,
+                    "conference_id": 69,
+                    "room_type": "auditorium",
+                    "meeting_link": null,
+                    "title": null
+                }
+            }
+        ]
+    },
+    "code": 200,
+    "message": "Success",
+    "status": true
+}));
+    </script>
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/3d_conference.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/3d_conference.data.unityweb",
+        frameworkUrl: buildUrl + "/3d_conference.framework.js.unityweb",
+        codeUrl: buildUrl + "/3d_conference.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Etrain Platfrom",
+        productName: "Etrainplatform 3D Conference",
+        productVersion: "1.2.1",
+        showBanner: unityShowBanner,
+      };
+
+      // By default Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+        canvas.style.width = window.innerWidth + 'px';
+        canvas.style.height = window.innerHeight + 'px';
+
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
+      }
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
